@@ -1,0 +1,23 @@
+# Virtual Environment
+myenv/
+
+# Environment variables
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Memory files
+memory/faiss_index.bin
+memory/memory.pkl
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
