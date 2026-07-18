@@ -1,23 +1,23 @@
 # 🤖 AI Personal Assistant
 
-An intelligent AI Personal Assistant built using **Streamlit**, **Groq LLM**, and **FAISS Vector Database**. It provides conversational AI with long-term memory, voice input, and persistent memory across sessions.
+An AI-powered Personal Assistant built using **Python, Streamlit, Groq Llama 3.3, FAISS, and Sentence Transformers**. The assistant supports long-term memory, semantic search, voice input, and intelligent memory management.
 
 ---
 
-## 🚀 Features
+## ✨ Features
 
-- 💬 Chat-based interface
-- 🧠 Long-term memory using FAISS
-- 🔍 Semantic memory search
-- ♻️ Intelligent memory replacement
-- 🎤 Voice input support
-- 📅 Current date & time awareness
-- 💾 Persistent memory across application restarts
+- 💬 Interactive Chat Interface
+- 🧠 Long-Term Memory using FAISS
+- 🔍 Semantic Memory Retrieval
+- ♻️ Intelligent Memory Replacement
+- 🎤 Voice Input Support
+- 📅 Current Date & Time Awareness
+- 💾 Persistent Memory Across Sessions
 - ⚡ Powered by Groq Llama 3.3
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠 Tech Stack
 
 - Python
 - Streamlit
@@ -32,31 +32,28 @@ An intelligent AI Personal Assistant built using **Streamlit**, **Groq LLM**, an
 ## 📂 Project Structure
 
 ```
-AI-Personal-Assistant/
+AI-Personal-Assistant
 │
-├── chatbot/
+├── chatbot
 │   ├── llm.py
 │   ├── memory.py
 │   ├── memory_filter.py
 │   ├── memory_decision.py
 │   ├── speech.py
-│   └── __init__.py
-│
-├── memory/
+│   └── utils.py
 │
 ├── app.py
 ├── requirements.txt
 ├── README.md
-├── .gitignore
-└── .env
+└── .gitignore
 ```
 
 ---
 
-## ⚙️ Installation
+## 🚀 Installation
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/NandiniKunche/AI-Personal-Assistant.git
 
 cd AI-Personal-Assistant
 
@@ -71,9 +68,9 @@ streamlit run app.py
 
 ---
 
-## 🔑 Environment Variable
+## 🔑 Environment Variables
 
-Create a `.env` file.
+Create a `.env` file:
 
 ```
 GROQ_API_KEY=your_api_key_here
@@ -81,17 +78,17 @@ GROQ_API_KEY=your_api_key_here
 
 ---
 
-## 📸 Features Demonstrated
+## 📌 Key Features
 
-- AI Chat
-- Voice Input
-- Long-Term Memory
-- Persistent Memory
-- Semantic Search
-- Date & Time Responses
+- Conversational AI Assistant
+- Long-Term Memory using Vector Embeddings
+- Semantic Memory Search
+- Voice-to-Text Input
+- Intelligent Memory Updating
+- Persistent Memory Storage
 
 ---
 
 ## 📄 License
 
-This project is for educational purposes.
+This project is created for educational and learning purposes.
